@@ -1,0 +1,26 @@
+{
+  "name": "bourbon_express",
+  "version": "1.0.0",
+  "description": "Rest Api for Bourbon inventory",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orichetti/bourbon_express.git"
+  },
+  "author": "Owen Richetti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orichetti/bourbon_express/issues"
+  },
+  "homepage": "https://github.com/orichetti/bourbon_express#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "knex": "^0.95.15",
+    "sqlite3": "^5.0.2"
+  }
+}
